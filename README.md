@@ -12,6 +12,7 @@
 - [Data Pipeline & Engineering](#-data-pipeline--engineering)
 - [Dashboard Preview](#-dashboard-preview)
 - [Repository Structure](#-repository-structure)
+- [Quick Links](#-quick-links)
 - [Installation & Setup](#-installation--setup)
 - [Key Insights & Analytics](#-key-insights--analytics)
 - [Future Enhancements](#-future-enhancements)
@@ -72,31 +73,29 @@ Raw investment datasets present several challenges:
 
 ### High-Level Architecture Flow
 
-
-```
-
+```text
 ┌───────────────────────────────┐
 │       Raw Data Sources        │
 │   startup_funding.csv (raw)   │
 └──────────────┬────────────────┘
-│
-▼
+               │
+               ▼
 ┌───────────────────────────────┐
 │     Data Cleansing Engine     │
 │   • Regex URL & suffix scrub  │
 │   • Date & currency parsing   │
 │   • Multi-investor unnesting  │
 └──────────────┬────────────────┘
-│
-▼
+               │
+               ▼
 ┌───────────────────────────────┐
 │     Processed Data Layer      │
 │     startup_cleaned.csv       │
 └──────────────┬────────────────┘
-│
-▼
+               │
+               ▼
 ┌─────────────────────────────────────────────────────────┐
-│                 Streamlit Engine (app.py)                │
+│                 Streamlit Engine (app.py)               │
 ├───────────────────┬───────────────────┬─────────────────┤
 │  Overall Analysis │  Startup Details  │ Investor Profile│
 │  • MoM Trends     │  • Round History  │ • Portfolio Sum │
@@ -105,8 +104,8 @@ Raw investment datasets present several challenges:
 └───────────────────┴───────────────────┴─────────────────┘
 
 ```
-
 ---
+
 ## 🖼 Dashboard Preview
 
 ### 1. Overall Ecosystem Overview & Funding Velocity
@@ -123,9 +122,7 @@ Raw investment datasets present several challenges:
 
 ## 📁 Repository Structure
 
-
-```
-
+```text
 startup_funding_case_study/
 ├── 📂 assets/
 │   ├── startuo_funding_img_01.png
@@ -151,19 +148,30 @@ startup_funding_case_study/
 ├── app.py
 ├── README.md
 └── requirements.txt
-
 ```
+
+---
+
+## 🔗 Quick Links
+
+| Resource | Description | Link |
+| --- | --- | --- |
+| 🌐 **Live Web Application** | Deployed interactive Streamlit dashboard | [Launch Dashboard](https://share.streamlit.io/) |
+| 💻 **Source Code Repository** | Complete codebase, ETL scripts, and assets | [GitHub Repository](https://github.com/mrsana365/startup_funding_case_study) |
+| 📊 **Cleaned Data Directory** | Processed CSVs ready for reporting | [Processed Data Folder](https://www.google.com/search?q=data/processed/) |
+| 📓 **Jupyter Notebooks** | Data exploration, regex wrangling, and prototyping | [Notebooks Folder](https://www.google.com/search?q=notebooks/) |
+| 📑 **Documentation & Notes** | Problem brief and project requirements documentation | [Docs Folder](https://www.google.com/search?q=docs/) |
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository
+
 ```bash
-git clone [https://github.com/your-username/startup_funding_case_study.git](https://github.com/your-username/startup_funding_case_study.git)
+git clone [https://github.com/mrsana365/startup_funding_case_study.git](https://github.com/mrsana365/startup_funding_case_study.git)
 cd startup_funding_case_study
-
-
+```
 
 ### 2. Configure Virtual Environment
 
@@ -175,21 +183,18 @@ myvenv\Scripts\activate
 # macOS / Linux
 python3 -m venv myvenv
 source myvenv/bin/activate
-
 ```
 
 ### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
-
 ```
 
 ### 4. Run the Streamlit Application
 
 ```bash
 streamlit run app.py
-
 ```
 
 Open `http://localhost:8501` in your browser.
@@ -215,7 +220,4 @@ Open `http://localhost:8501` in your browser.
 ## 📄 License
 
 This repository is distributed under the **MIT License**. Dataset information is compiled and sanitized for academic research and portfolio purposes.
-
-```
-
 ```
