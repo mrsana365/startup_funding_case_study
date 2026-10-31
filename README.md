@@ -1,4 +1,4 @@
-```markdown
+
 # 🚀 Indian Startup Funding Analytics & Intelligence Dashboard
 ### An End-to-End Data Pipeline & Interactive Streamlit Web Application (2015–2022)
 
@@ -150,7 +150,7 @@ startup_funding_case_study/
 git clone [https://github.com/your-username/startup_funding_case_study.git](https://github.com/your-username/startup_funding_case_study.git)
 cd startup_funding_case_study
 
-```
+
 
 ### 2. Configure Virtual Environment
 
