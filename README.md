@@ -158,9 +158,9 @@ startup_funding_case_study/
 | --- | --- | --- |
 | 🌐 **Live Web Application** | Deployed interactive Streamlit dashboard | [Launch Dashboard](https://share.streamlit.io/) |
 | 💻 **Source Code Repository** | Complete codebase, ETL scripts, and assets | [GitHub Repository](https://github.com/mrsana365/startup_funding_case_study) |
-| 📊 **Cleaned Data Directory** | Processed CSVs ready for reporting | [Processed Data Folder](https://www.google.com/search?q=data/processed/) |
-| 📓 **Jupyter Notebooks** | Data exploration, regex wrangling, and prototyping | [Notebooks Folder](https://www.google.com/search?q=notebooks/) |
-| 📑 **Documentation & Notes** | Problem brief and project requirements documentation | [Docs Folder](https://www.google.com/search?q=docs/) |
+| 📊 **Cleaned Data Directory** | Processed CSVs ready for reporting | [Processed Data Folder](data/processed/) |
+| 📓 **Jupyter Notebooks** | Data exploration, regex wrangling, and prototyping | [Notebooks Folder](notebooks/) |
+| 📑 **Documentation & Notes** | Problem brief and project requirements documentation | [Docs Folder](docs/) |
 
 ---
 
