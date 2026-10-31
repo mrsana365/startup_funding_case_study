@@ -10,9 +10,9 @@
 - [Core Features & Perspectives](#-core-features--perspectives)
 - [Tech Stack & Architecture](#-tech-stack--architecture)
 - [Data Pipeline & Engineering](#-data-pipeline--engineering)
+- [Dashboard Preview](#-dashboard-preview)
 - [Repository Structure](#-repository-structure)
 - [Installation & Setup](#-installation--setup)
-- [Dashboard Preview](#-dashboard-preview)
 - [Key Insights & Analytics](#-key-insights--analytics)
 - [Future Enhancements](#-future-enhancements)
 - [License](#-license)
@@ -105,6 +105,19 @@ Raw investment datasets present several challenges:
 └───────────────────┴───────────────────┴─────────────────┘
 
 ```
+
+---
+## 🖼 Dashboard Preview
+
+### 1. Overall Ecosystem Overview & Funding Velocity
+![Overall Analysis](assets/startuo_funding_img_01.png)
+
+### 2. Sector & Geographic Capital Allocation
+![Sector & City Analysis](assets/startuo_funding_img_02.png)
+
+### 3. Investor Portfolio & Startup Drill-Down
+![Investor & Startup Analysis](assets/startuo_funding_img_03.png)
+
 
 ---
 
